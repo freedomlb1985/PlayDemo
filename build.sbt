@@ -28,6 +28,7 @@ libraryDependencies += "com.typesafe.play" %% "play-slick-evolutions" % "2.1.0"
 
 libraryDependencies += "org.scala-debugger" %% "scala-debugger-api" % "1.1.0-M3"
 libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.2.0"
+libraryDependencies += "org.apache.spark" %% "spark-streaming-kafka-0-10" % "2.2.0"
 
 libraryDependencies += specs2 % Test
 libraryDependencies += filters
